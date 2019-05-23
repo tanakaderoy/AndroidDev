@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TwoActivities</string>
+    <string name="buttonMain">Send</string>
+    <string name="textHeader">Message Received</string>
+    <string name="editTextMain">Enter Your Message Here</string>
+    <string name="buttonSecond">Reply</string>
+    <string name="editTextSecond">Enter Your Reply Here</string>
+    <string name="textHeaderReply">Reply Received</string>
+</resources>
