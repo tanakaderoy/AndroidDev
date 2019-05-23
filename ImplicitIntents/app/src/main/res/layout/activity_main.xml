@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/websiteEditText"
+        android:text="@string/editTextUrl"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openWebsiteButton"
+        android:layout_marginBottom="24dp"
+        android:text="@string/buttonUrl"
+        android:onClick="openWebsite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:text="@string/editTextLoc"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openLocationButton"
+        android:layout_marginBottom="24dp"
+        android:text="@string/buttonLoc"
+        android:onClick="openLocation"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shareEditText"
+        android:text="@string/editTextShare"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shareTextButton"
+        android:layout_marginBottom="24dp"
+        android:text="@string/buttonShare"
+        android:onClick="shareText"
+        />
+
+</LinearLayout>
