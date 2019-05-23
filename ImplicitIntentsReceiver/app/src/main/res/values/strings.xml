@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Implicit Intents Receiver</string>
+    <string name="uriLabel">URI:</string>
+</resources>
